@@ -20,6 +20,7 @@ To install tensorflow, go to the webpage : https://www.tensorflow.org/install/pi
 To install Python packages, run pip command like below.
 
 pip install pandas numpy scikit-learn pydicom scikit-image pillow pylibjpeg pylibjpeg-libjpeg
+Visit the github page to install LJPEG codec : https://github.com/aaalgo/ljpeg 
  
 ### File Descriptions
 1st_stage_convert_dicom_png.ipynb : This file contains step-by-step Jupyter notebook style python code blocks with comments.
