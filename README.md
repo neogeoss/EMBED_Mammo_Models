@@ -1,10 +1,10 @@
 # Performance Comparison on RESNET models When Trained by Full Digital Mammograms and Film Based Mammograms
 
-CBIS-DDSM dataset is widespread in the deep learning community especially for those who develop deep learning models classifying and detecting breast cancer tumors. What happens when those old film based CBIS-DDSM and full digital mammograms are mixed and trained to avoid data scarcity issue?  
+CBIS-DDSM dataset is widespread in the deep learning community especially for those who develop deep learning models classifying and detecting breast cancer tumors. What happens when those old film based CBIS-DDSM/DDSM and full digital mammograms are mixed and trained to avoid data scarcity issue?  
 
 ## Description
 
-Employment of the deep learning models to detect breast cancer tumors in the mammograms are actively being researched across the world. It increases patients survival rates, it helps decide early and accurate treatment on breast cancer. In order to train deep learning models, a massive amount of breast cancer models is required for higher performance of the model. However, data scarcity issue in breast cancer mammograms is also common as well as other cancer types. Although the most recent release of EMBED dataset, Full Digital Mammogram, resolves such issue a little, we need to investigate the consequence when full digital mammograms are mixed with film based mammograms, such as CBIS-DDSM to increase the training volume. It is the 1st study to examine the effect of the mixture of EMBED and CBIS-DDSM.
+Employment of the deep learning models to detect breast cancer tumors in the mammograms are actively being researched across the world. It increases patients survival rates, it helps decide early and accurate treatment on breast cancer. In order to train deep learning models, a massive amount of breast cancer models is required for higher performance of the model. However, data scarcity issue in breast cancer mammograms is also common as well as other cancer types. Although the most recent release of EMBED dataset, Full Digital Mammogram, resolves such issue a little, we need to investigate the consequence when full digital mammograms are mixed with film based mammograms, such as CBIS-DDSM/DDSM to increase the training volume. It is the 1st study to examine the effect of the mixture of EMBED and CBIS-DDSM/DDSM.
 ## Getting Started
 
 ### Dependencies
