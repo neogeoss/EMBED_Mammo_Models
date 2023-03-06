@@ -53,10 +53,7 @@ Your computer system is different from mine. You will definitely run into proble
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Contact : InChan Hwang(ihwang@students.kennesaw.edu)
 
 ## Authors
 
