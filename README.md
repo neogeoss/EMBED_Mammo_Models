@@ -16,10 +16,11 @@ LJPEG codec and its original code has come from : https://github.com/aaalgo/ljpe
 
 
 ### Installing
-To install tensorflow, go to the webpage : https://www.tensorflow.org/install/pip
+To install tensorflow, go to the webpage : https://www.tensorflow.org/install/pip. 
 To install Python packages, run pip command like below.
 
-pip install pandas numpy scikit-learn pydicom scikit-image pillow pylibjpeg pylibjpeg-libjpeg
+pip install pandas numpy scikit-learn pydicom scikit-image pillow pylibjpeg pylibjpeg-libjpeg.
+
 Visit the github page to install LJPEG codec : https://github.com/aaalgo/ljpeg 
  
 ### File Descriptions
