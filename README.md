@@ -35,7 +35,7 @@ It also shows you an example how to read DICOM format images and convert them in
 
 3.5th_stage_ljpeg_to_png.zip : This file contains LJPEG codec and the python script that converts DDSM LJPEG images into 16BIT PNGs. Although I compiled LJPEG codec, you may need to recompile it for your own system. Visit and ask the author how to compile it : https://github.com/aaalgo/ljpeg. If my binary works, it is fine. 
 
-massconvert.py script will use a binary executable in ljpeg folder and read DDSM LJPEG images in 'normal' folder and convert them into 16Bit PNGs in 'negative' folder. 
+massconvert.py script will use a binary executable in 'ljpeg' folder and read DDSM LJPEG images in 'normal' folder and convert them into 16Bit PNGs in 'negative' folder. 
 
 4th_stage_CBIS_DDSM_data_prep.ipynb : It preprocesses a public dataset, CBIS-DDSM/DDSM, to mix it with the most recently released EMBED dataset. It reads metadata.csv of CBIS-DDSM and labels each mammogram with benign and malignant. It also converts DICOM files into 16 Bit PNGs. 
 
