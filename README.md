@@ -1,4 +1,4 @@
-# Performance Comparison on RESNET models When Trained by Full Digital Mammograms and Film Based Mammograms
+# Impact of Multi-source Data Augmentation on Performance of Convolutional Neural Networks for Abnormality Classification in Mammography
 
 CBIS-DDSM dataset is widespread in the deep learning community especially for those who develop deep learning models classifying and detecting breast cancer tumors. What happens when those old film based CBIS-DDSM/DDSM and full digital mammograms are mixed and trained to avoid data scarcity issue?  
 
