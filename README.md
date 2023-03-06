@@ -33,7 +33,7 @@ It also shows you an example how to read DICOM format images and convert them in
 3rd_stage_modelling.ipynb : This file contains Tensorflow code that builds RESNET50V2 based transfer learning model code. This file reads train, validation, test folders and trains a customized RESNET50V2 model, store the trained model into a file, also records performance metrics into CSV files. 
 
 
-3.5th_stage_ljpeg_to_png.zip : This file contains LJPEG codec and the python script that converts DDSM LJPEG images into 16BIT PNGs. Although I compiled LJPEG codec, you may need to recompile it for your own system. Visit and ask the author how to compile it : https://github.com/aaalgo/ljpeg. If my binary works, it is fine.
+3.5th_stage_ljpeg_to_png.zip : This file contains LJPEG codec and the python script that converts DDSM LJPEG images into 16BIT PNGs. Although I compiled LJPEG codec, you may need to recompile it for your own system. Visit and ask the author how to compile it : https://github.com/aaalgo/ljpeg. If my binary works, it is fine. massconvert.py script will read DDSM LJPEG images in 'normal' folder and convert them into 16Bit PNGs in 'negative' folder.
 
 4th_stage_CBIS_DDSM_data_prep.ipynb : It preprocesses a public dataset, CBIS-DDSM/DDSM, to mix it with the most recently released EMBED dataset. It reads metadata.csv of CBIS-DDSM and labels each mammogram with benign and malignant. It also converts DICOM files into 16 Bit PNGs. 
 
@@ -47,6 +47,7 @@ It also shows you an example how to read DICOM format images and convert them in
 
 9th_Stage_Resnet101_simple_prediction_only_race.py : This one looks pretty similar to 3rd stage but only testing over testsets in regards to different races.
 
+10th_stage_AUC_BY_RACE.ipynb : This file draws ROC AUC curves in regards to different races.
 Your computer system is different from mine. You will definitely run into problems reproducing the outputs. Do not hesitate to contact me if you are having trouble running the code.
 
 
