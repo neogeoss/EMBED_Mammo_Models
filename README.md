@@ -12,6 +12,8 @@ Employment of the deep learning models to detect breast cancer tumors in the mam
 This code has been tested under Ubuntu 20.04 with Tensorflow. Go to the website for its installation details (https://www.tensorflow.org/install/pip)\
 Required packages for preprocessing mammograms : Pandas, Numpy, scikit-learn, pydicom, scikit-image, pillow
 
+LJPEG codec and its original code has come from : https://github.com/aaalgo/ljpeg
+
 
 ### Installing
 To install tensorflow, go to the webpage : https://www.tensorflow.org/install/pip
@@ -35,6 +37,13 @@ It also shows you an example how to read DICOM format images and convert them in
 
 6th_stage_modelling_combined.ipynb : Resnet models are trained by mixed train sets, validation sets, and test sets. store the trained model into a file, also records performance metrics into CSV files.
 
+7th_Stage_Simple_By_Race.ipynb : this step may look like 1st stage but adding racial information to mammography images.
+
+8th_Stage_Racial_Test_Split_Folder.ipynb : This step also looks pretty similar to 2nd stage but split mammogram images by different races.
+
+9th_Stage_Resnet101_simple_prediction_only_race.py : This one looks pretty similar to 3rd stage but only testing over testsets in regards to different races.
+
+Your computer system is different from mine. You will definitely run into problems reproducing the outputs. Do not hesitate to contact me if you are having trouble running the code.
 
 
 
