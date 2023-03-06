@@ -48,6 +48,7 @@ It also shows you an example how to read DICOM format images and convert them in
 9th_Stage_Resnet101_simple_prediction_only_race.py : This one looks pretty similar to 3rd stage but only testing over testsets in regards to different races.
 
 10th_stage_AUC_BY_RACE.ipynb : This file draws ROC AUC curves in regards to different races.
+
 Your computer system is different from mine. You will definitely run into problems reproducing the outputs. Do not hesitate to contact me if you are having trouble running the code.
 
 
